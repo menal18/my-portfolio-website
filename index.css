@@ -1,0 +1,26 @@
+.card-session{
+    background-color:#DB2777;
+    height: 70vh;
+
+}
+.card-session_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+}
+.card-session_button{
+    color: #DC3F83;
+    background-color: pink;
+    padding: 12px;
+    border-radius:10px ;
+     cursor: pointer;
+      transition: all 0.3s ease;
+
+
+}
+
+.card-session_button:hover{
+  background-color:#FCCEE8;
+  transform: scale(1.05);
+}

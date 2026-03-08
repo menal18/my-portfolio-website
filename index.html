@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--js delivr Cdn-->
+  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body  class="bg-pink-100">
+    <!--navbar-->
+    <section>
+        <nav class="flex items-center justify-between bg-pink-100">
+            <div>
+                <h1 class="text-3xl font-bold text-pink-600 ml-6">Menal</h1>
+            </div>
+
+            <!--menu icon-->
+            <svg  id="menubtn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6  mx-3 text-pink-600  md:hidden">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
+
+            <div  class="flex gap-6  hidden md:flex">
+             <a href="#About" class="text-pink-600 text-lg  px-3  hover:underline">About</a>
+             <a href="#Skills" class="text-pink-600 text-lg   px-3 hover:underline">Skills</a>
+             <a href="#Project" class="text-pink-600 text-lg   px-3 hover:underline">Project</a>
+             <a href="#Contact" class="text-pink-600 text-lg px-3 hover:underline">Contact</a>
+            </div>
+
+        </nav>
+    </section>
+        <!--sidenavbar-->
+
+    
+    <section id="sidenav" class="bg-pink-100 fixed z-20 top-0 transition-all duration-1000 " style="width: 50%; height:100vh;right: -50%; ">
+        <div class=" text-right p-5">
+            <p id="closenav"  class="inline  cursor-pointer"> X</p>
+        </div>
+              <div  class="flex  flex-col gap-10 items-center">
+             <a href="#About" class="text-pink-600 text-lg  px-3  hover:underline">About</a>
+             <a href="#Skills" class="text-pink-600 text-lg   px-3 hover:underline">Skills</a>
+             <a href="#Project" class="text-pink-600 text-lg   px-3 hover:underline">Project</a>
+             <a href="#Contact" class="text-pink-600 text-lg px-3 hover:underline">Contact</a>
+            </div>
+    </section>
+
+    <!--main section-->
+    <section id="Home" class="card-session">
+        <div class="card-session_description">
+            <h1 class="text-white text-4xl font-bold">Hi, I'm Menal</h1>
+            <p class="text-white">Frontend Developer | B.E CSE Student</p>
+            <a href="#Project" class="card-session_button">view my work</a>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section  id="About" class="bg-pink-100">
+        <h1 class="text-3xl text-pink-600 font-bold  text-center py-5">About me</h1>
+        <p class="text-pink-600 text-center">I am a BE Computer Science student and an aspiring Frontend Developer passionate about building responsive and user-friendly websites using HTML, CSS, Tailwind CSS, and JavaScript.</p>
+    </section>
+    <!--skills-->
+     <section id="Skills" class="bg-pink-100">
+        <h1  class="text-3xl text-pink-600 font-bold  text-center py-10">Skills</h1>
+        <div class="flex justify-around">
+            <P class="bg-pink-600 text-pink-100 p-4 m-3 rounded  hover:bg-pink-500   shadow-lg md:w-40 text-center ">HTML</P>
+            <P class="bg-pink-600 text-pink-100 p-4 m-3 rounded  hover:bg-pink-500  shadow-lg md:w-40  text-center" >CSS</P>
+            <p class="bg-pink-600 text-pink-100 p-4 m-3 rounded  hover:bg-pink-500  shadow-lg md:w-40 text-center">Tailwindcss</p>
+            <p class="bg-pink-600 text-pink-100 p-4 m-3 rounded  hover:bg-pink-500 shadow-lg md:w-40 text-center">JavaScript</p>
+
+        </div>
+
+     </section>
+     <!--project section-->
+     <section  id="Project" class="bg-pink-100">
+        <h1 class="text-3xl text-pink-600 font-bold text-center py-10">Projects</h1>
+        <div class="md:flex">
+            <div class="bg-pink-600 m-6 p-4 rounded-xl shadow-xl">
+            <h1 class="text-white font-bold text-xl  text-center py-3">Portfolio Website</h1>
+            <p class="text-white text-base text-center">A responsive personal portfolio website built using HTML, CSS, Tailwind CSS, and JavaScript to showcase my skills, projects, and contact information in a clean and modern design.</p>
+            <div class="flex justify-center">
+            <a  class="text-pink-600 bg-pink-300 mt-3 px-7 py-2 rounded-xl  shadow-xl   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-pink-100"   href="#"> view</a>
+      </div>
+        </div>  
+
+            <div class="bg-pink-600 m-6 p-4 rounded-xl shadow-xl">
+            <h1 class="text-white font-bold text-xl text-center py-3">Greenden Website</h1>
+            <p class="text-white text-base text-center">Greenden is a responsive plant sales website built using HTML, CSS, and Tailwind CSS. It showcases different plant products with a clean and user-friendly design, allowing users to easily browse plant collections.</p>
+            <div class="flex justify-center">
+            <a  class="text-pink-600 bg-pink-300 mt-3 px-7 py-2 rounded-xl  shadow-xl   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-pink-100"   href=" https://menal18.github.io/greenden-tailwind/"> view</a>
+      </div>
+
+        </div>
+            <div class="bg-pink-600 m-6 p-4 rounded-xl shadow-xl">
+            <h1 class="text-white font-bold text-xl text-center py-3">Udemy-Clone  Website</h1>
+            <p class="text-white text-base text-center">Udemy Clone is a responsive e-learning website inspired by the Udemy platform. It features course listings, categories, and a clean user interface built using HTML, CSS, and Tailwind CSS..</p>
+            <div class="flex justify-center">
+            <a  class="text-pink-600 bg-pink-300 mt-3 px-7 py-2 rounded-xl  shadow-xl   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-pink-100"   href="https://menal18.github.io/udemy-c/"> view</a>
+      </div>
+
+        </div>
+        </div>
+     </section>
+     <!--contact page-->
+     <section  id="Contact"class="bg-pink-600">
+        <h1 class="text-white text-3xl font-bold text-center py-6">Contact</h1>
+        <div class="text-lg  text-center">
+       <p class="text-white">Email : <a class="text-white underline" href="#">mexn142614@gmail.com</a></p>
+       <p class="text-white">GitHub : <a class="text-white underline" href="https://github.com/menal18">github.com/menal18</a></p>
+       </div>
+
+
+     </section>
+     <!--footer section-->
+     <section class="text-center text-pink-600 text-sm">
+        <p >&copy;2026 Menal. All Rights Reserved.</p>
+     </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
