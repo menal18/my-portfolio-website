@@ -1,7 +1,16 @@
-.card-session{
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+  
+  
+  .card-session{
     background-color:#DB2777;
     height: 70vh;
     width: 100%;
+    overflow-x: hidden;
+    
 
 }
 .card-session_description{
@@ -9,6 +18,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 180px;
+
 }
 .card-session_button{
     color: #DC3F83;
